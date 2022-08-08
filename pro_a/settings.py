@@ -131,4 +131,6 @@ LOGIN_URL='users:login'
 LOGIN_REDIRECT_URL='app_a:index'
 
 #Heroku settins
+import django_heroku
+django_heroku.settings(locals())
 

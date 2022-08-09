@@ -128,7 +128,7 @@ STATIC_URL = '/static/'
 
 #My settings
 LOGIN_URL='users:login'
-LOGIN_REDIRECT_URL='app_a:index'
+LOGIN_REDIRECT_URL='app_a:topics'
 
 #Heroku settins
 import django_heroku

@@ -14,6 +14,6 @@ def register(request):
         if form.is_valid():
             new_user= form.save()
         login(request,new_user)
-        return redirect('app_a:index')
+        return redirect('app_a:topics')
     context={'form':form}
     return render(request,'registration/register.html',context)
